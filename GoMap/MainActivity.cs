@@ -3,13 +3,11 @@ using Android.Widget;
 using Android.OS;
 
 namespace GoMap {
-    [Activity(Label = "GoMap", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "GoMap", MainLauncher = true, Icon = "@drawable/ic_launcher")]
     public class MainActivity : Activity {
         protected override void OnCreate(Bundle bundle) {
             base.OnCreate(bundle);
-
-            // Set our view from the "main" layout resource
-            // SetContentView (Resource.Layout.Main);
+            SetContentView(Resource.Layout.Main);
         }
     }
 }
