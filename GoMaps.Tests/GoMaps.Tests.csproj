@@ -127,8 +127,8 @@
     <Content Include="MainActivity.cs.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GoMap\GoMaps.csproj">
-      <Project>{c282b683-a00a-48ff-9b89-aea364e9fa97}</Project>
+    <ProjectReference Include="..\GoMaps\GoMaps.csproj">
+      <Project>{76634745-9d23-4b38-b48e-412aa93228e1}</Project>
       <Name>GoMaps</Name>
     </ProjectReference>
   </ItemGroup>
