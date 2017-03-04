@@ -71,11 +71,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Container\AutofacConfig.cs" />
     <Compile Include="Gallery\GalleryManager.cs" />
     <Compile Include="Gallery\IGalleryManager.cs" />
     <Compile Include="GoMapsApplication.cs" />
-    <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
