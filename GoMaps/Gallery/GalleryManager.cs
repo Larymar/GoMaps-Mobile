@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 
 namespace GoMaps.Gallery {
-    class GalleryManager : IGalleryManager {
+    public class GalleryManager : IGalleryManager {
         public IObservable<Uri> GetGalleryImageUri() {
             throw new NotImplementedException();
         }
